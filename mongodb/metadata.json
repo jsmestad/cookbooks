@@ -1,0 +1,51 @@
+{
+    "recipes": {
+    },
+    "replacing": {
+    },
+    "version": "0.0.0",
+    "groupings": {
+    },
+    "long_description": "",
+    "recommendations": {
+    },
+    "platforms": {
+      "ubuntu": [
+
+      ]
+    },
+    "maintainer": "Absolute Performance, Inc",
+    "suggestions": {
+    },
+    "license": "Apache 2.0",
+    "maintainer_email": "youremail@example.com",
+    "conflicting": {
+    },
+    "dependencies": {
+      "xfs": [
+
+      ],
+      "aws": [
+
+      ]
+    },
+    "attributes": {
+      "data_dir": {
+        "required": "optional",
+        "calculated": false,
+        "choice": [
+
+        ],
+        "default": "/data/mongodb",
+        "type": "string",
+        "recipes": [
+
+        ],
+        "display_name": "Data directory"
+      }
+    },
+    "name": "mongodb",
+    "providing": {
+    },
+    "description": "A fabulous new cookbook"
+  }
